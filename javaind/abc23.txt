@@ -1,0 +1,16 @@
+File Uploading Concept in Django:-
+it is used to upload external file in django project.
+
+HTML provide 
+
+<input type="file"  />
+
+we use encrypted form for file uploading concept
+
+<form action="" method="post" enctype="multipart/form-data">
+
+  
+
+
+</form>
+

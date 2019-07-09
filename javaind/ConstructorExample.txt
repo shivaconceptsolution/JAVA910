@@ -1,0 +1,31 @@
+1 constructor name and classname will be same
+
+2 constructor has no return type
+
+3 constructor will be called when we create object
+
+class Classname
+{
+    Classname()  //default constructor
+    {
+
+   }
+   Classname(param)  //parametrised constructor
+   {
+
+   }
+  Classname(Classname ref)//copy constructor
+  {
+
+  }
+
+}
+
+Type of Constructor:-
+
+1 Default
+
+2 Parametrised 
+
+3 Copy Constructor
+

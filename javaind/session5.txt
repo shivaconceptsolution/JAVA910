@@ -1,0 +1,143 @@
+Conditional Statement in JAVA:-
+.............................................................................................
+
+it is used to solve condition based problem to provide if statement and else statement.
+
+if will execute when condition will be true.
+
+else will execute when condition will be false.
+
+
+Type of Conditional Statement in Java:-
+
+1  If:-
+
+ when condition will be true and no need to evaluate false condition.
+
+WAP to increase salary of employee with 500 if assigned salary is >5000 otherwise same salary will be printed.
+
+if(condition)
+statement
+
+if(condition)
+{
+   statement1;
+   statement2;
+}
+
+
+
+2 if--else:-
+
+   it will execute when condition will true and false both.
+   
+    if (condition)
+    {
+       statement;
+    }
+    else
+    {
+        statement;
+    }
+
+  WAP to increase salary of employee from 1000 if entered salary is above 5000 otherwise increase  salary from 2000.
+
+
+
+
+3  nested if--else :-
+if more than one condition will be applied in program than we prefer nested or ladder.
+
+nested means more than one if--else statement using nested sequence.
+
+if(condition)
+{
+      if(condition)
+      {
+
+     }
+    else
+    {
+
+    }
+
+}
+else
+{
+      if(condition)
+      {
+
+      }
+    else
+    {
+
+   }
+
+}
+
+WAP to increase 500 in salary of employee if salary is between 10000 to 25000 ,if salary is less than 10000 than increase 200 and for other's  increase 100.
+
+
+WAP to check vowel and consonent without using logical?
+
+char ch='a';
+String s="";
+if(ch=='a')
+s="vowel";
+else
+{  
+    if(ch=='e')
+      s="vowel";
+   else
+     {
+         if(ch=='i')
+         s="vowel";
+        else
+        {
+               if(ch=='o')
+                 s="vowel";
+               else
+                  {
+                   
+                  }
+        }
+      }
+ 
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+4  Ladder if--else:-
+   it will work step by step means when first condition will be false than second will execute and after third ... and at last else statement will execute.
+
+
+
+if(condition)
+  statement;
+else if(condition)
+ statement;
+...
+...
+else
+statement;
+
+
+5 Multiple if:-
+we will write more than one if statement
+
+if(condition)
+statement
+if(condition)
+statement
+if(condition)
+statement

@@ -1,0 +1,99 @@
+OOP'S Concept in JAVA:-
+...........................................................................
+
+OOP'S means Object Oriented Programming Structure.
+
+it is used to create real-world based application .real world based means software which will be created to handle real-time data r user's data.
+
+OOP's is a technique which is common for multiple programming languages such as CPP,C#,Python,Ruby ,Angular JS,NODE JS etc.
+
+
+OOP's provide Dynamic memory allocation,Security and Reusebility features in Program.
+
+...........................................................................................................
+
+Features                                                               Rules
+Dynamic memory                                             Class and Object
+
+Security                                                              Data abstraction and 
+                                                                             Data encapsulation
+
+Reusebility                                                         Inheritance
+
+
+Accessbility                                                       Access Specifier
+
+
+Flexbility or Usability                                      Static Polymorphism
+
+
+Extendbility                                                      Dynamic Polymorphism 
+
+...........................................................................................................
+
+ Class and Object:-
+
+it is common rules of OOP's that program structure should be defined by the class and access by the object.
+
+
+class:-
+
+
+
+Object:-
+
+it is real -world entity which has identity,state and behaviour.
+
+object will be defined by class .
+
+identity :- unique address or reference 
+
+state -------> Memory
+
+behaviour --> to assign data for data member and member function.
+
+
+Syntax of class and Object
+
+class Classname
+{
+      returntype methodname()
+      {
+
+      }
+
+     
+}
+
+Classname ref = new Classname();
+ref.methodname();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+  
+
+
+
+
+
+

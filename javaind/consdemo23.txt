@@ -1,0 +1,26 @@
+Constructor:-
+
+it is used to initialize dynamic data member of class using constructor block.
+
+Constructor will be defined by 
+
+def __init__():
+
+it will be called when we create object.
+
+class ConsDemo:
+   def __init__(self):
+      self.a=100
+      self.b=200
+
+
+obj = ConsDemo()
+
+
+Destructor:-
+
+it will be called when we destroy any object from program.
+
+it will be defined by __del__
+
+

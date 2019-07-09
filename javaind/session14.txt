@@ -1,0 +1,79 @@
+Variable,Constant ,Literals:-
+
+Variable means to vary value of identifier at compile time or runtime.
+
+we can override the value of variable.
+
+Datatype identifer=value;
+Datatype identifier;
+
+
+Constant:-
+
+Constant means to fix value of identifer at compile time or runtime.
+
+we can not override the value of constant.
+
+
+final Datatype identifier=value;
+
+final int X=10;
+
+
+Literals:-
+
+Value of constant and variables is called Literals
+
+a=10 ;  //10 is the literals
+
+a= "12.34"; //12.34 is the literals
+
+a=true;  //true is the literals
+
+......................................................................................................
+
+Operator Concept in Java:-
+..............................................................................................
+
+It is used to perform different type of operation using operand.
+operand can be variable,constant and literals.
+
+
+operator of java has defined as a predefine function but it will be called by predefine Symbol.
+
+Type of operator:-
+
+1 Unary:-
+
+  1.1 Increment
+   1.1.1 POST and Pre:-
+           a++           ++a
+
+     
+   1.2 Decrement
+   1.2.1 POST and PRE
+            a--    or --a
+
+
+   POST :-  first perform other operation than increase or decrease value.
+ b=a++;
+   First assignment (b=a) than increment a++
+
+  Pre:-  First perform Increment|decrement than perform other operation
+ 
+ b= ++a;
+First Increment (a=a+1) than assignment
+  
+  
+   
+2 Binary
+
+
+3 Ternary
+
+
+
+
+
+
+ 

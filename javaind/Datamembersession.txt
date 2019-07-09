@@ -1,0 +1,67 @@
+component of class in JAVA:-
+
+1 Data Member
+
+static:-
+
+it will allocate memory or data space at the time of compilation.
+static variable has constant memory means in complete program static has only one memory space.
+
+hence last value of static variable will be contained into memory block.
+
+static datatype variablename;
+
+static will be called by Classname.
+
+static int x;
+
+Classname.x;
+
+it will always use as a shared variable to multiple user's.
+
+all variables which will be declared under static method than it will be by default static.
+
+
+
+
+
+
+
+
+dynamic:-
+
+this type of variable allocate memory space at runtime using object.
+
+it can create multiple data space  using  object.
+
+we can use single dynmaic variable with multiple values for multiple user's.
+
+in real world programming we always prefer dynamic variable.
+
+
+datatype variablename=value;
+
+int x=5;
+
+if we declare variable under dynamic method than it is called local dynamic or instance variable.
+
+
+dynamic variable is also called instance variable because it will be called by object.
+
+
+
+
+2 Member Function
+
+
+3 Constructor
+
+
+4 Static Block
+
+
+
+5 Initializer Block
+
+
+6 Inner class

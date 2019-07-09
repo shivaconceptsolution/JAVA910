@@ -1,0 +1,6 @@
+WAP to reverse mobile number using for loop?
+
+WAP to calculate some of two digit positive number?
+
+WAP to display maximum number in mobile number?
+

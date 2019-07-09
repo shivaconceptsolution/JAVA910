@@ -1,0 +1,115 @@
+Switch--case:-
+..............................................................
+it is used to create option based program.switch provide multiple options and we can choose particular option.
+
+
+switch(option)
+{
+    case optionvalue:
+      statement;
+       break;
+    ....
+
+    default:
+     statement;
+     break;
+
+
+}
+
+option==optionvalue than that statement will be executed
+
+WAP to check even or odd using switch?
+
+
+
+
+nested switch statement:-
+
+we will write more than one switch statement using nested sequence.
+
+
+switch(option)
+{
+     case:
+        switch(option)
+         {
+               
+         }
+      break;
+      default:
+       switch(option)
+       {
+          
+       } 
+       break;
+
+}
+
+
+ASSIGNMENT:-
+
+WAP to check divisible of number from 3 ,5 and 9 in all combination?
+
+WAP to check greatest using four different number using switch?
+
+
+WAP to check leap year using switch?
+
+
+WAP to check vowel ,consonent using Switch?
+
+WAP to check that entered char is special,numeric or alphanetical using switch?
+
+
+WAP to display "Enter","SHIFT","CTRL","FUNCTIONKEY" when user press these all buttons 
+
+
+
+Loop Statement in JAVA:-
+...........................................................................................
+it is used to print large repeated data or expression using common repeatable block.
+
+We can solve Range Based,Common Code Based ,Array Based and Collection based program using LOOP easily.
+
+
+Component of LOOP
+                                          Forward                                     BackWard
+
+Init                                    i=min                                           i=max
+
+
+Condition                         i<=max                                        i>=min
+
+
+
+Iteration                          i++                                                 i--                                     
+
+
+............................................................................................................
+
+-1 to -5 
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

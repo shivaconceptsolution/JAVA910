@@ -1,0 +1,22 @@
+Q1 WAP to display only repeated elements of array but is should be display once?
+
+[1,2,3,4,5,6,2,2,3,3,1]   o/p   1 2 3 
+
+
+
+2 WAP to split positive and negative element of array in two different sub array?
+
+
+3 WAP to sort only odd element of array even element will be in same position?
+
+
+2 12 7 5 4
+2 12 5 7 4
+
+
+WAP to multiply two matrix 
+
+WAP to find max element in complete Jagged array?
+
+WAP to sort Jagged Row element in asc order?
+

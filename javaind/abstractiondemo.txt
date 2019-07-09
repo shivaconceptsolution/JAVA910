@@ -1,0 +1,66 @@
+Data abstraction and Data Encapsulation:-
+..........................................................................................................
+abstraction means data hiding process,it is used to hide non-essential and show essential details in program to protect direct accessbility.
+
+python not support access specifier keyword ,we will use __ symbol in front of method name to protect method from direct accessbility.
+
+encapsulation means binidng of data member to member function and member function to another member function for indirect accessbility.
+
+encapsulation is mandatory for data abstraction.
+................................................................................................
+
+
+encapsulation and abstraction is used to provide security and accessbility features in program.
+
+
+Polymorphism:-
+.................................................................................................
+Poly means many and morphism means forms
+
+using this we will use same entity in multple forms.
+
+we can use same operator for different functionality.
+
+same method with different functionality.
+
+python not support function overloading concept only operator overloading concept will be implemented by python.
+
+
+type of polymorphism:-
+
+1 operator overloading:-
+
+create same name operator for different functionality because operator is also predefine function in all languages .
+
+
+
+ +        def __add__(self)
+
+-         def __sub__(self)
+
+*         def __mul__(self)
+
+/          def __floordiv__(self)
+
+//         def __truediv__(self)
+
+
+
+
+
+
+
+
+2 Function overriding
+
+
+
+
+
+
+
+
+
+
+
+

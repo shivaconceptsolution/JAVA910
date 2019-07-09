@@ -1,0 +1,117 @@
+List Features:-
+
+1 Provide Range Based Option to Show and manipulate Data
+
+x =[12,23,34,45,67]
+
+print(x[2:5])    2 to 5
+
+print(x[2:])     2 to last
+
+print(x[:5])   0 to 5
+
+
+2 List Provide Mutable Object means we can add,edit and delete element from list dynamically.
+x =[12,23,34,45,67] 
+
+x.append(12)
+
+x[1]=33
+
+del x[3]
+
+3 provide for loop and foreach loop to enumerate LIST Data
+x =[12,23,34,45,67] 
+
+for i in range(0,len(x)):
+    print(x[i])
+
+for x1 in x:
+   print(x1)
+
+
+ 
+4 support arithmatic operation:-
+
+
++   [1,2,3]+[4,5,6]
+     [1,2,3,4,5,6]
+
+*     [1]*5
+
+
+
+
+5 support membership operator:-
+
+IN  :- it will check presenace of an element in list .it return true if element is found otherwise false 
+
+NOT IN :- opposite of IN Operator
+
+x = [1,2,3,4,5]
+
+if 5 not in x:
+   print("Yes")
+
+
+
+6 support identity operator:-
+
+is :-  it will return true if reference is equall or variable point to same object
+
+is not :- opposite of is operator
+
+
+7 we can add element in any index position
+
+  x=[1,2,3,4]
+  x.insert(0,5)
+  print(x)
+
+.........................................................................................................
+
+Tuple Concept in Python:-
+..................................................................................
+tuple is also used to store multiple elements using index=>value pair.
+
+tuple object can not be modified hence it is also called immutable object in python.
+
+x =(12,23,34,67,78)
+
+x[1]=46 #error
+del x[1] #error
+
+
+tuple will be defined by () and accessed by [].
+
+
+if we want to create constant list in program than we can use tuple.
+
+
+
+1 WAP to divide one list into two different sublist ,sublist contain prime and composite number?
+
+
+2 WAP to reverse internal digits of list ?
+
+
+x = [2,34,678,12,9]
+
+o/p [2,43,876,21,9]
+
+3 WAP to convert tuple element to list element?
+
+4 WAP to find second max and third max element in LIST without using sorting
+
+5 WAP to sort element of LIST?
+
+
+
+
+
+
+
+
+
+
+

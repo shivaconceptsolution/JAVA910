@@ -1,0 +1,58 @@
+Java Program Flow:-
+
+ step 1st:-
+
+create .java file and define single class or multiple
+
+  
+step2nd:-
+
+compile .java file using Java language compiler.
+
+it will convert JAVA Source code to Java Byte Code.
+
+
+javac  Filename
+
+
+
+
+step3rd:-
+
+Execute JAVA ClassFile using JAVA Interpretar .
+
+main() is mandatory for JAVA Program Execution
+
+
+java MainClassname
+
+Mainifest class which contain main()
+
+
+
+Q Empty java Class Can be compile:-
+
+yes it will be compiled because class never will be empty it contain default constructor.
+Before Compilation
+class A
+{
+
+
+}
+
+After Compilation
+class A
+{
+    A()
+   {
+
+  }
+}
+
+
+2 if one File Contain Four Class than how many class file willl be created after compilation?
+
+
+
+
+

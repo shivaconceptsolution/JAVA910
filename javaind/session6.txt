@@ -1,0 +1,48 @@
+List ,Tuple and Dictionary in Python:-
+
+These are called Collection Objects in Python which is used to contain multiple elements using proper sequence.
+
+it provide data structure of python datatype.
+
+
+List:-
+
+it is a collection of similar and disimilar datatype elements.
+
+we can store multiple values using single variable in LIST.
+
+
+it is equavalent to array.
+
+
+Syntax of LIST:-
+
+
+variablename = [value1,value2,value3]
+
+x = [12,23,34,45]
+
+Indexing of List:-
+
+0 to len(list)-1
+
+len(list) :- it return size of list object.
+
+print(len(x))
+
+Advantage of LIST:-
+
+1 we can easily search and sort the element using LIST
+
+2 we can reduce variable's in program because single list variable can contain multiple values.
+
+
+
+
+
+
+
+
+
+
+

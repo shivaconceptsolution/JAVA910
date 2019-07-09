@@ -1,0 +1,110 @@
+Type of loop in Java:-
+
+1 Entry Control loop:-
+
+First Check Condition than execute statement.
+
+1.1 while :-
+
+this loop can be implemented for finite condition and infinite condition both.
+
+but we mostly prefer while loop for infinite condition.
+
+Syntax:-
+Finite Loop:-
+init;
+while(condition)
+{
+    statement;
+    increment;
+}
+
+
+InFinite Loop
+
+while(true)
+{
+    if(condition)
+       break;
+
+}
+
+1.2 for:-
+
+  it is used to create program where condition is finite.
+          1       2 5             4 7
+   for(init;condition;iteration)
+      {
+                3 6
+               statement;
+      }
+
+i++;
+++i;
+ 
+   for(int i=1;i<5;++i)
+    {
+        System.out.println(i);
+    }
+
+ for(int i=1;i<5;i++)
+    {
+        System.out.println(i);
+    }
+
+
+
+
+
+1.3  foreach :-
+
+it is used to display array and collection elements.
+
+
+
+2 Exit Control loop:-
+
+First Execute Statement under Loop than check condition
+
+2.1 do--while
+
+init:
+do
+{
+    statement;
+
+}while(i<=10);
+
+
+by default one -time loop will be executed.
+
+
+
+Program1st:-
+
+Q1 WAP to print 1 to 5 and 5 to 1 using single loop?
+1
+2
+3
+4
+5
+5
+4
+3
+2
+1
+Q2  WAP to check prime number ?
+
+Q3 WAP to print fabonacci series ?
+
+Q4 WAP to reverse any digit no?
+
+Q5 WAP to print before five char and after five char of any entered char?
+
+O
+Q6 WAp TO DISPLAY FACTORIAL USING COMPLKETE STRUCTURE
+
+5*4*3*2*1=120
+
+
+

@@ -1,0 +1,52 @@
+polymorphism and inheritance:-
+..................................................
+
+poly means many and morphism means forms
+
+using this we can use same name method or operator using multiple form.
+
+python not support function overloading concept .only operator overloading will be performed by python.
+
+
++  addition
+
++   concatenation
+
+
+
+
+Inheritance:-
+it means reusebility using this we can access the features of base class to dereived class.
+
+Type of inheritance
+
+1 Single ---->  One Class Feature to Another
+
+2 Multileval---> One class----> Another Class ----> Another class
+
+3 Multiple --->
+
+                       First class     Second Class
+
+ 
+                                       Main Class
+
+
+4 Hierarchical 
+
+                                  First
+
+            Second                                   Third
+
+
+
+   
+
+        
+
+
+
+
+
+
+

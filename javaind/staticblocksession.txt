@@ -1,0 +1,85 @@
+Static block:-
+...........................................................................................
+it is special block of JAVA which will be called before main().
+
+class Classname
+{
+     static
+     {
+          statements;
+     }
+ 
+}
+
+this block will be called automatically.
+
+it is mostly used to intialize static data member of class.
+
+
+class A
+{
+   static int a,b;
+   static
+   {
+       a=100;
+       b=200;
+   }
+
+}
+
+we can create more than one static block  but last static block value will be contained in memory.
+
+
+Initializer block:-
+..................................................................
+
+this block will be called before constructor block.
+
+it is also used to intialize value to dynamic data member of class.
+
+class A
+{
+ int a;
+ int b;
+  A()
+  {
+     a=10;
+     b=2;
+
+  }
+  {
+        a=3;
+        b=4;
+       
+  }
+
+}
+
+
+Data abstraction and Data Encapsulation:-
+.........................................................................................
+
+Data abstraction means data hiding .it is used to hide internal functionality of program and show only external details.
+
+Class contain essential details and non-essential details both.
+
+to show only essential detail and hide non-essential is managed by data abstraction.
+
+class Bank
+{
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

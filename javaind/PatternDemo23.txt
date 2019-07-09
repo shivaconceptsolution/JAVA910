@@ -1,0 +1,75 @@
+1 2 3 4 5
+5 4 3 2
+1 2 3
+5 4
+1
+..................................
+i       j
+1     5
+2    4
+3   3
+4  2
+5  1
+
+for(int i=1;i<=5;i++)
+{
+   for(int j=1;j<=6-i;j++)
+   {
+      if(i%2==0)
+       System.out.print(6-j);
+     else
+       System.out.print(i); 
+    }
+   System.out.println();
+}
+
+
+1 2 3 4 5
+A B C D
+1 2 3
+A B
+1
+..............................................
+
+Break and Continue Statement:-
+.........................................................................................................
+
+it is used to terminate the loop based on condition.
+
+continue:-
+it is used to skip the data and continue loop till condition.
+
+2
+3 5
+7 11 13
+17 19  23 29
+
+......................................
+
+A B C D E
+a b c d
+A B  C
+a b
+A
+E D C B A
+E D C B
+E D C
+E D
+E
+......................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

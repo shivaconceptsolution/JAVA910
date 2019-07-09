@@ -1,0 +1,64 @@
+1 Project vs Root App
+
+    
+
+
+2  App
+
+2.1  
+
+
+
+django-admin startproject xyz
+
+xyz (root app)
+
+setting.py  ------> install_apps
+
+urls.py  --------> app path
+
+
+python manage.py startapp abc
+
+abc 
+
+urls.py  ---->  it contain path of methods which will be defined on view.py
+....................................................................................................
+
+
+Project urls.py----> app urls.py ----> views.py --> Method--->output
+
+django-admin startproject projectname
+
+python manage.py startapp appname
+
+python manage.py runserver
+
+...................................................
+pip install django  (if pip not than download python get-pip.py
+................................................................
+
+create three page application
+
+1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

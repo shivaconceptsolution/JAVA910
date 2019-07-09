@@ -1,0 +1,38 @@
+how we call admin app
+
+step1st:-
+
+create admin type users and provide password
+
+python manage.py createsuperuser
+
+
+step2nd:-
+
+runserver
+
+python manage.py runserver
+
+
+step3rd:-
+
+open project and write /admin in url
+
+127.0.0.1/admin
+
+admin
+
+123456abc
+
+
+How we show Tables on Admin Dashboard:-
+
+open admin.py from  app and write following code
+
+
+
+from .models import Student
+
+admin.site.register(Student)
+
+

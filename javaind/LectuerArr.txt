@@ -1,0 +1,54 @@
+a [] ={1,2}
+b [] = {5,6}
+
+c [] = new int[a.length+b.length]
+
+c[0]=a[0]
+c[1]=a[1]
+c[2]=b[0]
+c[3]=b[1]
+for(i=0;i<c.length;i++)
+{
+     if(i<a.length)
+       c[i]=a[i];
+    else
+      c[i]= b[i-a.length]
+
+}
+
+Multidimension array:-
+.........................................................
+using this array we can display element using rows and columns similar to matrix.
+
+datatype arrayname[][] = new datatype[row][col];
+
+int arr[][] = new int[2][2];  //dynamic data
+
+int arr[][]= {{2,3},{4,5}};  //static data
+
+
+for(int i=0;i<2;i++)
+{
+    for(int j=0;j<2;j++)
+    {
+        System.out.print(arr[i][j]+" ");
+    }
+    System.out.println(); 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+member function:-
+....................................................................
+
+it is used to define functionality of data member of class.
+it is also called method of class.
+
+type of member function:-
+
+1 static member function:-
+
+  static data member will be defined by static member function.
+
+ it will be called by classname.
+
+  
+static returntype methodname()
+{
+      statements;
+}
+
+
+2 dynamic member function:-
+
+it is used to define dynamic variable or member of class.
+
+it will be called by object.
+
+returntype methodname()
+{
+    statements;
+}
+
+void Display()
+{
+   
+}
+
+
+According to Parameters:-
+
+1 Default member function:-
+
+we can not pass any arguments to default member function.input will be declared under function block.
+
+1.1 No return type:-  it not return ouput
+void methodName()
+{
+
+}
+
+1.2 Return Type:-  we can return output data using this
+
+datatype methodName()
+{
+     return data;
+    
+}
+
+
+
+
+
+2 Parametrsied member function:-
+
+using this we can pass value from calling function to called function.
+
+it is used to send data with method calling.
+
+
+1.1 Without Return TYpe
+
+    void functionName(param1,param2)
+    {
+
+    }
+
+1.2 With Return Type(param1,param2)
+     {
+        return data;
+    }
+
+
+

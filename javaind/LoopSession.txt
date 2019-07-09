@@ -1,0 +1,14 @@
+for loop:-
+
+we will write single statement to display result
+
+for i in range(start,end):
+    print(i)
+
+for i in range(start,end,increment):
+   print(i)
+
+for i in range(end,start,-1):   //Display Data in reverse Direction
+  print(i)
+
+
