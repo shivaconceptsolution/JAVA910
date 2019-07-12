@@ -1,0 +1,164 @@
+Difference between abstract class and interface?
+
+1 interface use interface keyword to define interface block but abstract class is the part of class ,it use abstract keyword.
+
+
+2 interface modules always will be public abstract class can be default and public both
+
+
+3 interface contain only constant and abstract method.but abstract class can contain all component of class variable,constant,static,instance excluding only constructor
+
+
+4 interface method will be implemented into class.but abstract class extend features.hence interface use implements keyword and abstract class use extends keyword
+
+5 interface can be parent of abstract class .abstract class can impelement interface features
+
+6 abstract class can contain main() but interface will never contain main()
+
+7 abstract keyword will be used in abstract class method interface all method will be abstract by default.
+
+
+8 abstract class abstract method can be default and public both but interface has only contain public method by default.
+
+
+9 abstract class can not perform multiple inheritance but interface can perform this.
+
+
+10 interface is only used for set of rules declaration which will be implemented on multiple modules of project.
+
+abstract class is only used to hide actual class features.
+
+........................................................................
+
+what is final class ,final method and final type variable in java?
+
+ans:-
+
+final class can not be inherited but it can contain normal method ,static method and final method.
+
+
+final class A
+{
+
+
+}
+class B extends A
+{
+
+}
+
+final method:-  if we want to protect method from method overriding than we can create final method.
+
+final variable:-  if we want to proetct variable from overriding means we want to create constant than we can create final type variable.
+
+
+final int x;
+
+.....................................................................
+Exception handing concept in java:-
+..............................................................................
+Exception means unexpected runtime erros of program by user input,machine or external resource.
+
+Exception and errors both will interrupt the program execution.
+
+error has no protection because it will be raised at compile time.
+
+
+Exception has protection because it will interrupt program at runtime hence we can secure code under exception block at compile time.
+
+                            Throwable
+
+            Error                                 Exception
+
+
+
+
+Type of Exception:-
+1 Checked Exception:-
+it is pre-initmated exception some java class use checked exeception to execute java progam.
+
+without exception block program will not compile and execute.
+
+
+for example if we create file handing program in JAVA than IOException is mandatory.
+1 IOException
+
+2 SQLException
+
+3 ClassNotFoundException
+
+4 SerializationException
+
+5 InterruptedException
+
+6 ServletException
+
+
+
+2 Unchecked Exception:-
+
+This type of exception will be raised by user input .without exception block program will be compiled and execute.
+
+
+for example if we enter alphabets in division program than it will throw runtime error.
+
+1 ArithmeticException
+
+2 NumberFormatException
+
+3 ArrayIndexOutOfBoundsException
+
+4 NullPointerException
+
+5 InputmismatchException
+.............................................................................
+
+try
+{
+
+
+}
+catch(Exception ex)
+{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
