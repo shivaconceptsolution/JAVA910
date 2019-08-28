@@ -33,15 +33,20 @@ public class RegSer extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
+            Regbean obj = new Regbean();
            String email = request.getParameter("txtemail");
            String pass = request.getParameter("txtpass");
            String mobile = request.getParameter("mobileno");
+           obj.setEmail(email);
+           obj.setPassword(pass);
+           obj.setMobileno(mobile);
+           
            try
            {
            Class.forName("com.mysql.jdbc.Driver");
            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/feedmanage","root","");
            Statement st = con.createStatement();
-           int x = st.executeUpdate("insert into reg(email,password,mobileno) values('"+email+"','"+pass+"','"+mobile+"')");
+           int x = st.executeUpdate("insert into reg(email,password,mobileno) values('"+obj.getEmail()+"','"+obj.getPassword()+"','"+obj.getMobileno()+"')");
            if(x!=0)
                out.print("reg successfully");
            else
